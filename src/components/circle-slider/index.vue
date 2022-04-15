@@ -1,6 +1,6 @@
 <template>
   <div class="circle-slider">
-    <slider :value="initialValue" :max="max" @input="onChange" :stepMinutes="stepMinutes" :side="120"></slider>
+    <slider :value="initialValue" :max="max" @input="onChange" :stepMinutes="stepMinutes" ></slider>
   </div>
 </template>
 
@@ -39,8 +39,3 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
-.circle-slider {
-  padding: 100px;
-}
-</style>

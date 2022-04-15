@@ -1,12 +1,14 @@
 {
-  "name": "circle-slider",
-  "version": "0.1.0",
-  "private": true,
+  "name": "vue-circle-slider",
+  "version": "0.1.2",
+  "description": "A Vue component for a circular slider",
+  "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "@luguicheng/vue-circle-slider": "^0.1.1",
     "core-js": "^3.22.0",
     "vue": "^2.6.14"
   },
