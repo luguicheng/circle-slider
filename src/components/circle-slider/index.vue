@@ -1,11 +1,11 @@
 <template>
-  <div id="App">
+  <div class="circle-slider">
     <slider :value="initialValue" :max="max" @input="onChange" :stepMinutes="stepMinutes" :side="120"></slider>
   </div>
 </template>
 
 <script>
-import Slider from './components/circle-slider/slider.vue'
+import Slider from './slider.vue'
 
 export default {
   name: 'circle-slider',
@@ -39,6 +39,8 @@ export default {
 }
 </script>
 
-<style scoped>
-
+<style lang="scss" scoped>
+.circle-slider {
+  padding: 100px;
+}
 </style>
